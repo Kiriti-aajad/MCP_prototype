@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "http://localhost:8000/query"  # Update if your API runs elsewhere
+API_URL = "http://localhost:8000/query"  
 
 def query_backend(question):
     """Send question to backend API and get response."""

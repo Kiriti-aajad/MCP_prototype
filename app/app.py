@@ -31,6 +31,5 @@ def main():
             st.success(answer)
         else:
             st.warning("Please enter a question before submitting.")
-
 if __name__ == "__main__":
     main()
